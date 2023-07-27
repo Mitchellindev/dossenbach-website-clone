@@ -14,9 +14,11 @@ header {
 	background-position: center;
 }
 
-.header-name {
-	font-size: 7rem;
-	font-family: "Libre Caslon Display", serif;
+@media (min-width: 769px) {
+	.header-name {
+		font-size: 7rem !important;
+		font-family: "Libre Caslon Display", serif;
+	}
 }
 
 .heading,
@@ -40,6 +42,6 @@ body > main > section:nth-child(4) {
 	background-color: #878780;
 }
 
-body > footer{
-	background-color: #4A4A43;
+body > footer {
+	background-color: #4a4a43;
 }
