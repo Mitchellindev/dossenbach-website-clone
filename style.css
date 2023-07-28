@@ -14,11 +14,28 @@ header {
 	background-position: center;
 }
 
+@media (max-width: 768px) {
+	.hero {
+		width: 100% !important;
+		display: flex;
+		flex-direction: column;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+	nav div {
+		width: 100% !important;
+	}
+}
+
 @media (min-width: 769px) {
 	.header-name {
 		font-size: 7rem !important;
 		font-family: "Libre Caslon Display", serif;
 	}
+}
+
+.header-name {
+	font-family: "Libre Caslon Display", serif;
 }
 
 .heading,
