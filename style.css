@@ -25,6 +25,16 @@ header {
 	nav div {
 		width: 100% !important;
 	}
+	.heading.text-center {
+		width: 100% !important;
+		font-size: 2rem !important;
+	}
+	.heading-container {
+		width: 100% !important;
+	}
+	.heading.fw-bold {
+		font-size: 1.4rem !important;
+	}
 }
 
 @media (min-width: 769px) {
