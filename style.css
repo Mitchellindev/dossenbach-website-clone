@@ -35,6 +35,9 @@ header {
 	.heading.fw-bold {
 		font-size: 1.4rem !important;
 	}
+	body > header > div {
+		align-items: center !important;
+	}
 }
 
 @media (min-width: 769px) {
